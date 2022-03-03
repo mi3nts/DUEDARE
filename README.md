@@ -1,5 +1,5 @@
 # DUEDARE
-## Dense Urban Environment Dosimetry for Actionable Information and Recording Exposure
+**DUEDARE**: Dense Urban Environment Dosimetry for Actionable Information and Recording Exposure
 
 Code to accompany work on inferring particulate matter concentrations from biometric variables
 
