@@ -16,7 +16,7 @@ __Bibtex__:
 authors={Shawhin Talebi, David J. Lary, Lakitha O. H. Wijeratne, Bharana Fernando, Tatiana Lary, Matthew D. Lary, John Sadler, Arjun Sridhar, John Waczak, Adam Aker & Yichao Zhang},
 title={DUEDARE},
 howpublished={https://github.com/mi3nts/DUEDARE}
-year={2019}
+year={2022}
 }
 ```
 ## Data Availablility
