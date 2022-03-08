@@ -6,7 +6,7 @@ Code to accompany (unpublished) paper: Decoding Physical and Cognitive Impacts o
 Scripts are written using MATLAB R2021b. Additionally, this work is built on top of the biometrics research library BM3: https://github.com/mi3nts/BM3. All relevant functions from BM3 are explicitly included in this repository.
 
 ## Overview
-This analysis includes 66 different empirical models for a variety particulate matter concentrations estimated from biometric recordings. These 66 models are separated into 3 cohorts which vary by which predictor and target variables are included.
+This analysis includes 66 different empirical models for a variety particulate matter concentrations estimated from biometric recordings. These 66 models are separated into 3 cohorts which vary by the predictor and target variables included.
 - **Cohort 1**: BM-9_PM-6_Trials-7_TP-90_withEEG
   -  9 biometric predictors
   -  6 PM targets
