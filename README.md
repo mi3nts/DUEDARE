@@ -3,7 +3,7 @@
 
 Code to accompany (unpublished) paper: Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-fine Scales. This work uses an ultra-fine, holistic environmental and biometric sensing paradigm to generate empirical particulate matter models estimated by biometric variables. 
 
-Scripts are written using MATLAB R2021b.
+Scripts are written using MATLAB R2021b. Additionally, this work is built on top of the biometrics research library BM3: https://github.com/mi3nts/BM3. All relevant functions from BM3 are explicitly included in this repository.
 
 ## Citation
 
