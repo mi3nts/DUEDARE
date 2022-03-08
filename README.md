@@ -18,16 +18,18 @@ This analysis includes 66 different empirical models for a variety particulate m
   - 54 PM targets
 
 #### Variable Descriptions
-- **9 biometric predictor variables**: body temperature, GSR, HRV, the 3D spatial distance between left and right pupil centers, delta band (1 -- 3 Hz) power densities for the FC6, T8, Oz, and PO7 electrodes, as well as alpha band (8 -- 12 Hz) power density for the FC6 electrode.
-- **9 non-EEG biometric predictor variables**: body temperature, GSR, HR, HRV, RR, SpO2, average pupil diameter, difference between left and right pupil diameters, and the 3D spatial distance between left and right pupil centers
+- **9 biometric predictors**: body temperature, GSR, HRV, the 3D spatial distance between left and right pupil centers, delta band (1 -- 3 Hz) power densities for the FC6, T8, Oz, and PO7 electrodes, as well as alpha band (8 -- 12 Hz) power density for the FC6 electrode.
+- **9 non-EEG biometric predictors**: body temperature, GSR, HR, HRV, RR, SpO2, average pupil diameter, difference between left and right pupil diameters, and the 3D spatial distance between left and right pupil centers
 - **6 PM targets**: PM_1, PM_2.5, PM_4, PM_10, PM_Total, particle count density (dCn)
 - **54 PM targets**: 54 different PM size bins ranging of 0.18 -- 10 microns
 
 ## Quickstart
-Training data for this study is included in the present repository. To reproduce summary plots from the manuscript, follow the instructions below. Note: these plots are 
+Training data for this study is included in the present repository. To reproduce summary plots from the manuscript, follow the instructions below. 
+
+Note: Models are derived using an ensemble of decision trees for regression, which randomly sample the training dataset with replacement. For this reason, resulting models and plots may deviate from the plots in the manuscript. The specific models used in the manuscript are avaialble at the Zenodo data store [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6326357.svg)](https://doi.org/10.5281/zenodo.6326357).
 
 1. Navigate to **DUEDARE/BM3/codes/study** subdirectory
-2. Run the following scripts: trainModels_withEEG_6sizeBins.m, trainModels_withoutEEG_6sizeBins.m, and trainModels_withoutEEG_54sizeBins.m
+2. Run the following scripts: trainModels_withEEG_6sizeBins.m, trainModels_withoutEEG_6sizeBins.m, and trainModels_withoutEEG_54sizeBins.m. Note: you may need to adjust the number of workers used for model training if your machine has less than 6.
 3. Run plotSummaries.m script
 
 To generate evaluation plots for all 66 models, run the following scripts: plotModels_withEEG_6sizeBins.m, plotModels_withoutEEG_6sizeBins.m, and plotModels_withoutEEG_54sizeBins.m
