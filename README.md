@@ -1,8 +1,9 @@
 # DUEDARE
 **DUEDARE**: Dense Urban Environment Dosimetry for Actionable Information and Recording Exposure
 
-Code to accompany work on inferring particulate matter concentrations from biometric variables
+Code to accompany (unpublished) paper: Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-fine Scales. This work uses an ultra-fine, holistic environmental and biometric sensing paradigm to generate empirical particulate matter models estimated by biometric variables. 
 
+Scripts are written using MATLAB R2021b.
 
 ## Citation
 
