@@ -31,6 +31,7 @@ Note: Models are derived using an ensemble of decision trees for regression, whi
 1. Navigate to **DUEDARE/BM3/codes/study** subdirectory
 2. Run the following scripts: trainModels_withEEG_6sizeBins.m, trainModels_withoutEEG_6sizeBins.m, and trainModels_withoutEEG_54sizeBins.m. Note: you may need to adjust the number of workers used for model training if your machine has less than 6.
 3. Run plotSummaries.m script
+4. Plots will be saved to subdirectories with format **DUEDARE/BM3/codes/study/Models/CohortName/summaryplots**, where CohortName corresponds to each respective cohort of models e.g. BM-9_PM-6_Trials-7_TP-90_withEEG.
 
 To generate evaluation plots for all 66 models, run the following scripts: plotModels_withEEG_6sizeBins.m, plotModels_withoutEEG_6sizeBins.m, and plotModels_withoutEEG_54sizeBins.m
 
